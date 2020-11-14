@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                 elevation: 18.0,
                 shape: CircleBorder(),
                 child: CircleAvatar(
-                  radius: 74,
+                  radius: getProportionateScreenWidth(100),
                   backgroundImage: AssetImage("assets/images/food_welcome.jpg"),
                 ),
               ),
